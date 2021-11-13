@@ -1,0 +1,411 @@
+/* Font Family */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F9F9F9;
+}
+
+
+/* Header Part */
+
+
+header {
+    width: auto;
+    margin: auto;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding-right: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #fff;
+}
+
+header .logo {
+    display: flex;
+    font-size: 20px;
+}
+
+header .logo i:nth-child(1) {
+    padding: 22px 0;
+}
+
+header .logo i:nth-child(2) {
+    padding: 18px 0;
+}
+
+header .logo p {
+    font-size: 24px;
+    padding: 18px 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+header .logo .fa-bars {
+    margin-right: 24px;
+}
+
+header .logo .fa-youtube {
+    color: rgb(255, 0, 0);
+    font-size: 28px;
+}
+
+header .search {
+    width: 728px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 8px 0;
+}
+
+header .search .div {
+    width: 612px;
+    display: flex;
+}
+
+header .search .div input {
+    width: 572px;
+    border: 1px solid #CCC;
+    line-height: 24;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+header .search .div2 {
+    width: 64px;
+    border: 1px solid #CCC;
+    border-left: 0;
+} 
+
+header .search .div2 .fa-search {
+    font-size: 24px;
+    padding: 8px 0 6px 20px;
+    background-color: #F8F8F8;
+}
+
+header .search .fa-microphone {
+    font-size: 22px;
+    padding: 8px 22px;
+}
+
+header .sign {
+    width: 225px;
+    display: flex;
+}
+
+header .sign i {
+    font-size: 24px;
+    padding: 16px 16px 8px 16px;
+    cursor: pointer;
+}
+
+header .sign .account {
+    margin: 12px 16px 12px 16px;
+}
+
+header .sign .account img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+header .fa-stream {
+    display: none;
+}
+
+
+/* Section Part */
+
+section {
+    width: 1200px;
+    height: 840px;
+    margin: auto;
+    /* border: 1px solid; */
+    margin-bottom: 50px;
+    display: flex;
+}
+
+section .play-one {
+    width: 820px;
+    margin: 0 0 0 24px;
+    padding: 24px 24px 0 0;
+}
+
+section .play-one .text {
+    width: 820px;
+    height: 105px;
+    padding: 20px 0 8px;
+    border-bottom: 1px solid #E0E0E0;
+    position: relative;
+}
+
+section .play-one .text p {
+    width: 602px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+section .play-one .text .like {
+    height: 40px;
+    display: flex;
+    font-size: 14px;
+    align-items: baseline;
+}
+
+section .play-one .text .like p {
+    padding: 14px 14px 14px 0;
+    font-weight: 400;
+}
+
+section .play-one .text .like .main-icon {
+    display: flex;
+    width: 506px;
+}
+
+section .play-one .text .like .main-icon .icon {
+    width: 113px;
+    padding: 14px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+section .play-one .text .like .main-icon .icons {
+    padding: 14px 0 14px;
+    cursor: pointer;
+}
+
+section .play-one .text .line {
+    position: absolute;
+    left: 360px;
+    bottom: 0;
+    width: 200px;
+    border: 0.6px solid black;
+}
+
+section .play-one .channel {
+    width: 820px;
+    height: 50px;
+    margin: 16px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+
+section .play-one .channel .logo-channel {
+    width: 64px;
+}
+
+section .play-one .channel .logo-channel img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+section .play-one .channel .name-channel {
+    width: 478px;
+}
+
+section .play-one .channel .name-channel i {
+    opacity: 0.7;
+}
+
+section .play-one .channel .name-channel p:nth-child(1) {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+section .play-one .channel .name-channel p:nth-child(2) {
+    font-size: 12px;
+    font-weight: 300;
+} 
+
+section .play-one .channel .name-channel p {
+    cursor: pointer;
+    display: ;
+}
+
+section .play-one .channel button {
+    width: 90px;
+    height: 36px;
+    background-color: #CC0000;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+section .play-one .channel .btn {
+    margin-left: 190px;
+}
+
+
+section .play-two {
+    width: 426px;
+    padding: 24px 24px 0 0;
+    margin: 0 0 0 24px;
+}
+
+section .play-two .video2 {
+    width: 100%;
+    height: 94px;
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+
+section .play-two .video2 .video-text {
+    width: 202px;
+    margin-left: 7px;
+    position: relative;
+}
+
+section .play-two .video2 .video-text .menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+
+section .play-two .video2:hover .menu {
+    opacity: 1;
+}
+
+section .play-two .video2 .video-text p:nth-child(1) {
+    height: 40px;
+    font-size: 14px;
+    color: #030303;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+section .play-two .video2 .video-text p:nth-child(2) {
+    height: 18px;
+    font-size: 12px;
+    color: #606060;
+}
+
+section .play-two .video2 .video-text p:nth-child(3) {
+    height: 18px;
+    font-size: 12px;
+    color: #606060;
+}
+
+
+/* Media Part */
+
+
+@media screen and (max-width:1142px) {
+    header .search .div {
+        width: 550px;   
+    }
+}
+
+@media screen and (max-width:1060px) {
+    header .search .div {
+        width: 300px;
+        margin-left: 15px; 
+    }
+
+    header .search .div2 .fa-search {
+        padding: 8px 8px 6px 12px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    header {
+        width: 768px;
+        margin: auto;
+    }
+
+    header .logo .fa-bars {
+        margin-left: 25px;
+    }
+    header .search {
+        display: none;   
+    }
+
+    header .sign {
+        display: none;
+    }
+
+    header .fa-stream {
+        display: block;
+        font-size: 20px;
+    }
+
+    header .stream {
+        margin: 18px 5px 0 0;
+    }
+
+    section {
+        width: 768px;
+        margin: auto;
+    }
+
+    section .play-one {
+        width: 715px;
+    }
+
+    section .play-one .video {
+        width: 715px;
+    }
+
+    section .play-one .video iframe {
+        width: 715px;
+        height: 400px;
+        margin: auto;
+    }
+
+    section .play-one .text {
+        width: 715px;
+    }
+
+    section .play-one .text .like {
+        width: 715px;
+    }
+
+    section .play-one .channel {
+        width: 715px;
+    }
+
+    section .play-one .text .line {
+        position: absolute;
+        left: 255px;
+        bottom: 0;
+        width: 200px;
+        border: 0.6px solid black;
+    }
+
+    section .play-one .channel .name-channel p {
+        margin-left: 10px;
+    }
+
+    
+
+
+
+
+
+
+    section .play-two {
+        display: none;
+    }
+}
